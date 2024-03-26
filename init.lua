@@ -18,5 +18,5 @@ end
 
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
-vim.keymap.set('n','<C-Z>',':u<CR>')
+vim.keymap.set('n','a>',':u<CR>')
 require "plugins"
